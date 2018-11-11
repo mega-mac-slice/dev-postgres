@@ -1,4 +1,5 @@
-#bms-docker-postgres-10.5
+#docker-postgres-10.5
+
 Manages docker image for local development.
 
 ### Commands
