@@ -1,0 +1,9 @@
+{
+    "name": "docker-postgres-10.5",
+    "commands": {
+        "status": "make status", 
+        "start": "make start", 
+        "stop": "make stop"
+    }, 
+    "stack": []
+}
