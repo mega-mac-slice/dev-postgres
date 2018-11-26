@@ -2,7 +2,7 @@
     "name": "docker-postgres-10.5",
     "commands": {
         "status": "make status", 
-        "start": "make start", 
+        "start": "make check-running",
         "stop": "make stop"
     }, 
     "stack": []
