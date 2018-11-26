@@ -13,10 +13,11 @@ start:
 stop:
 	docker stop ${CONTAINER_ID}
 
-restart: stop start
+restart:
+	docker restart ${CONTAINER_ID}
 
 remove:
-	docker container rm ${CONTAINER_ID}
+	docker container rm --force ${CONTAINER_ID}
 
 check-running:
 	@if [ -z "${CONTAINER_ID}" ]; then\
