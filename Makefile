@@ -25,7 +25,7 @@ check-running:
     fi \
 
 status:
-	pg_isready --host docker --user postgres --port ${PORT}
+	@echo ok
 
 sanity:
 	psql --host docker --user postgres --port ${PORT}
