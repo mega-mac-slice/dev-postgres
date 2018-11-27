@@ -25,7 +25,11 @@ check-running:
     fi \
 
 status:
-	@echo ok
+	@if [ -z "${CONTAINER_ID}" ]; then\
+		echo fail; \
+    else \
+    	echo ok; \
+    fi \
 
 sanity:
 	psql --host docker --user postgres --port ${PORT}
