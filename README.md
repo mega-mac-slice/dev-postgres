@@ -1,4 +1,4 @@
-# docker-postgres-10.5
+# dev-postgres-10.5
 
 Manages docker image for local development.
 
