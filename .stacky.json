@@ -1,5 +1,5 @@
 {
-    "name": "docker-postgres-10.5",
+    "name": "dev-postgres-10.5",
     "commands": {
         "status": "make status", 
         "start": "make check-running",
